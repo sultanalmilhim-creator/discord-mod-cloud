@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "announcement": "أهلاً بك في أداتك الخاصة لـ ديسكورد!",
+  "plugins": [
+    {
+      "id": "welcome_msg",
+      "name": "رسالة ترحيبية مخصصة",
+      "description": "تطبع رسالة في الكونسول عند بدء تشغيل ديسكورد",
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/sultanalmilhim-creator/discord-mod-cloud/main/plugins/welcome_msg.js"
+    }
+  ],
+  "themes": []
+}
