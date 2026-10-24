@@ -1,14 +1,33 @@
 {
-  "version": "1.0.0",
-  "announcement": "أهلاً بك في أداتك الخاصة لـ ديسكورد!",
+  "announcement": "مرحباً بك في منصة FNNF - النسخة الكاملة للإضافات",
   "plugins": [
     {
-      "id": "welcome_msg",
-      "name": "رسالة ترحيبية مخصصة",
-      "description": "تطبع رسالة في الكونسول عند بدء تشغيل ديسكورد",
+      "id": "show_hidden_channels",
+      "name": "إظهار القنوات المخفية (Show Hidden Channels)",
+      "description": "يسمح لك برؤية القنوات المخفية في السيرفرات مع أيقونة قفل مخصصة",
+      "version": "1.1.0",
+      "url": "https://raw.githubusercontent.com/sultanalmilhim-creator/discord-mod-cloud/main/plugins/hidden_channels.js"
+    },
+    {
+      "id": "typing_indicator",
+      "name": "مؤشر الكتابة المطور (Typing Indicator)",
+      "description": "يعرض لك من يكتب في الشات بطريقة احترافية واضحة",
       "version": "1.0.0",
-      "url": "https://raw.githubusercontent.com/sultanalmilhim-creator/discord-mod-cloud/main/plugins/welcome_msg.js"
+      "url": "https://raw.githubusercontent.com/sultanalmilhim-creator/discord-mod-cloud/main/plugins/typing_indicator.js"
+    },
+    {
+      "id": "spotify_controls",
+      "name": "التحكم بـ Spotify (Spotify Controls)",
+      "description": "تحكم بمقطوعات سبوتفاي مباشرة من واجهة ديسكورد السفلية",
+      "version": "1.2.0",
+      "url": "https://raw.githubusercontent.com/sultanalmilhim-creator/discord-mod-cloud/main/plugins/spotify_controls.js"
+    },
+    {
+      "id": "custom_css_loader",
+      "name": "محمل الثيمات والمظهر (Custom CSS)",
+      "description": "يدعم تخصيص الألوان والخلفيات وتطبيق ثيمات ديسكورد الداكنة",
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/sultanalmilhim-creator/discord-mod-cloud/main/plugins/custom_css.js"
     }
-  ],
-  "themes": []
+  ]
 }
